@@ -1,0 +1,104 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2011 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Web Edition
+# Date created = 16:33:35  January 01, 2012
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		50bit_shift_register_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX II"
+set_global_assignment -name DEVICE EPM570T100C5
+set_global_assignment -name TOP_LEVEL_ENTITY 50bit_shift_register
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "11.1 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:33:35  JANUARY 01, 2012"
+set_global_assignment -name LAST_QUARTUS_VERSION "11.1 SP1"
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name POWER_EXT_SUPPLY_VOLTAGE_TO_REGULATOR 3.3V
+set_global_assignment -name QIP_FILE lpm_shiftreg0.qip
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name BDF_FILE 50bit_shift_register.bdf
+set_location_assignment PIN_1 -to output[49]
+set_location_assignment PIN_2 -to output[48]
+set_location_assignment PIN_3 -to output[47]
+set_location_assignment PIN_4 -to output[46]
+set_location_assignment PIN_5 -to output[45]
+set_location_assignment PIN_6 -to output[44]
+set_location_assignment PIN_7 -to output[43]
+set_location_assignment PIN_8 -to output[42]
+set_location_assignment PIN_15 -to output[41]
+set_location_assignment PIN_16 -to output[40]
+set_location_assignment PIN_17 -to output[39]
+set_location_assignment PIN_18 -to output[38]
+set_location_assignment PIN_19 -to output[37]
+set_location_assignment PIN_20 -to output[36]
+set_location_assignment PIN_21 -to output[35]
+set_location_assignment PIN_26 -to output[34]
+set_location_assignment PIN_27 -to output[33]
+set_location_assignment PIN_28 -to output[32]
+set_location_assignment PIN_29 -to output[31]
+set_location_assignment PIN_30 -to output[30]
+set_location_assignment PIN_33 -to output[29]
+set_location_assignment PIN_34 -to output[28]
+set_location_assignment PIN_35 -to output[27]
+set_location_assignment PIN_36 -to output[26]
+set_location_assignment PIN_38 -to output[25]
+set_location_assignment PIN_40 -to output[24]
+set_location_assignment PIN_41 -to output[23]
+set_location_assignment PIN_42 -to output[22]
+set_location_assignment PIN_47 -to output[21]
+set_location_assignment PIN_48 -to output[20]
+set_location_assignment PIN_49 -to output[19]
+set_location_assignment PIN_50 -to output[18]
+set_location_assignment PIN_51 -to output[17]
+set_location_assignment PIN_52 -to output[16]
+set_location_assignment PIN_53 -to output[15]
+set_location_assignment PIN_54 -to output[14]
+set_location_assignment PIN_55 -to output[13]
+set_location_assignment PIN_56 -to output[12]
+set_location_assignment PIN_57 -to output[11]
+set_location_assignment PIN_58 -to output[10]
+set_location_assignment PIN_61 -to output[9]
+set_location_assignment PIN_66 -to output[8]
+set_location_assignment PIN_67 -to output[7]
+set_location_assignment PIN_68 -to output[6]
+set_location_assignment PIN_69 -to output[5]
+set_location_assignment PIN_70 -to output[4]
+set_location_assignment PIN_71 -to output[3]
+set_location_assignment PIN_72 -to output[2]
+set_location_assignment PIN_73 -to output[1]
+set_location_assignment PIN_74 -to output[0]
+set_location_assignment PIN_77 -to Data
+set_location_assignment PIN_78 -to Clock
+set_location_assignment PIN_81 -to SClear
